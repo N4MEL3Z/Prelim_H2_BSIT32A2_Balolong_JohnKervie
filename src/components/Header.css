@@ -1,0 +1,46 @@
+.Nav {
+  background-color: #5e06c296;
+  padding: 15px 0;
+}
+
+.Header1-panel {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  margin: 20px;
+}
+
+.Header1 {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.Nav-Link {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.Nav-Link a {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.Nav-Link a:hover {
+  background-color: #9d0eaa;
+  transform: translateY(-3px);
+}
+
+.Nav-Link a:active {
+  background-color: #300542;
+  transform: translateY(1px);
+}
